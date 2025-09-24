@@ -1,13 +1,26 @@
+# Core
 streamlit==1.27.0
+
+# LangChain and related modules
 langchain==1.0.0
 langchain-chroma==0.0.2
-langchain_groq
+git+https://github.com/groq-ai/langchain-groq.git
 langchain-huggingface==0.0.7
 langchain-openai==0.0.8
 langchain-community==0.0.11
 langchain-core==0.0.6
 langchain-text-splitters==0.0.5
+
+# Vectorstore and embeddings
 faiss-cpu==1.7.4
+ollama==0.0.6
+
+# Document loaders
+PyPDF2==3.1.0
+
+# Utilities
 python-dotenv==1.0.0
 openai==1.31.0
-ollama==0.0.6
+
+# Optional: ensure latest pip to avoid GitHub install issues
+pip>=25.2
