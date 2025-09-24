@@ -1,6 +1,7 @@
 streamlit==1.27.0
 langchain==1.0.0
 langchain-chroma==0.0.2
+langchain_groq
 langchain-huggingface==0.0.7
 langchain-openai==0.0.8
 langchain-community==0.0.11
